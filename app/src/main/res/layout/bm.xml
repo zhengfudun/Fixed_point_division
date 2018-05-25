@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bmtv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="补码"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bmtv2"
+            android:layout_width="335dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="     计算机中的符号数有三种表示方法，即原码、反码和补码。三种表示方法均有符号位和数值位两部分，符号位都是用0表示“正”，用1表示“负”，而数值位，三种表示方法各不相同。
+\n     在计算机系统中，数值一律用补码来表示和存储。原因在于，使用补码，可以将符号位和数值域统一处理；同时，加法和减法也可以统一处理。此外，补码与原码相互转换，其运算过程是相同的，不需要额外的硬件电路。" />
+
+        <TextView
+            android:id="@+id/bmtv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:text="特性"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bmtv4"
+            android:layout_width="335dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="21dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="1、一个负整数（或原码）与其补数（或补码）相加，和为模。\n2、对一个整数的补码再求补码，等于该整数自身。\n3、补码的正零与负零表示方法相同。" />
+
+        <TextView
+            android:id="@+id/bmtv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:text="整数补码"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bmtv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="0dp"
+            android:text="正数"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bmtv7"
+            android:layout_width="335dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+        android:id="@+id/bmtv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="0dp"
+        android:text="负数"
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bmtv9"
+            android:layout_width="335dp"
+            android:layout_height="240dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bmtv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="0dp"
+            android:text="转化为原码"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bmtv11"
+            android:layout_width="335dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bmtv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="0dp"
+            android:text="补码的绝对值"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bmtv13"
+            android:layout_width="335dp"
+            android:layout_height="210dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bmtv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:text="小数补码"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bmtv15"
+            android:layout_width="335dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="   一种简单的方式，符号位保持1不变，数值位从右边数第一个1及其右边的0保持不变，左边按位取反。" />
+
+    </LinearLayout>
+</ScrollView>

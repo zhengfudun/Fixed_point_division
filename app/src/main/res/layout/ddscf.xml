@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ddscf1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="定点数运算"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ddscf2"
+            android:layout_width="335dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="     定点数运算包括移位、加、减、乘、除几种。" />
+
+        <TextView
+            android:id="@+id/ddscf3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:text="位移运算"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ddscf4"
+            android:layout_width="335dp"
+            android:layout_height="440dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/ddscf5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:text="加减运算"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ddscf6"
+            android:layout_width="335dp"
+            android:layout_height="460dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/ddscf7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:text="定点数除法类型"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ddscf8"
+            android:layout_width="335dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="     1.分析笔算法
+                       \n     2.原码恢复余数法
+                       \n     3.原码加减交替法
+                       \n     4.补码加减交替法" />
+
+    </LinearLayout>
+</ScrollView>

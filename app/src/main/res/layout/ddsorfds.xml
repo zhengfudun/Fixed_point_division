@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ddfd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="定点数"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ddfd2"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="     计算机中采用的一种数的表示方法。参与运算的数的小数点位置固定不变。" />
+
+        <TextView
+            android:id="@+id/ddfd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:text="无符号数"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ddfd4"
+            android:layout_width="335dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/ddfd5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="带符号数"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ddfd6"
+            android:layout_width="335dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="     最高位被用来表示符号位，而不再表示数值位。
+                        \n     例如：1111 是 -7" />
+
+        <TextView
+            android:id="@+id/ddfd8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:text="定点整数"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ddfd9"
+            android:layout_width="335dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/ddfd10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:text="定点小数"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ddfd11"
+            android:layout_width="335dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/ddfd12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:text="浮点数"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ddfd13"
+            android:layout_width="335dp"
+            android:layout_height="320dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="     浮点数是属于有理数中某特定子集的数的数字表示，在计算机中用以近似表示任意某个实数。具体的说，这个实数由一个整数或定点数（即尾数）乘以某个基数（计算机中通常是2）的整数次幂得到，这种表示方法类似于基数为10的科学计数法。
+                       \n     “浮点数”的定义是相对于“定点数”来说的。在计算机内部，数据以二进制的形式存储和运算，而计算机内表示的数，又被分成整数和实数两大类。其中整数一般用定点数表示，定点数指小数点在数中有固定的位置（一般来说整数的小数点都在最末位数后）。实数一般用浮点数表示，因为它的小数点位置不固定。浮点数是既有整数又有小数的数，纯小数可以看作实数的特例。" />
+
+    </LinearLayout>
+</ScrollView>

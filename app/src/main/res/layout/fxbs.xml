@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+        android:id="@+id/fxbs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:text="分析笔算除法"
+        android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fxbs5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="1.分析笔算"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fxbs2"
+            android:layout_width="335dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:text="    以小数为例，设 x=-0.1011，y=0.1101，求x/y
+                       \n    笔算除法时，商的符号心算而得：负正得负；其数值部分的运算如下面竖式。" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fxbs1"/>
+
+        <TextView
+            android:id="@+id/fxbs3"
+            android:layout_width="335dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:text="    所以商x/y=0.1101，余数=-0.00000111" />
+
+        <TextView
+            android:id="@+id/fxbs4"
+            android:layout_width="335dp"
+            android:layout_height="400dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/fxbs6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="2.原码除法"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fxbs7"
+            android:layout_width="335dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="    原码除法和原码乘法一样，符号位是单独处理的。以小数为例：
+                      \n    设" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fxbs2"/>
+
+        <TextView
+            android:id="@+id/fxbs8"
+            android:layout_width="335dp"
+            android:layout_height="400dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+    </LinearLayout>
+</ScrollView>

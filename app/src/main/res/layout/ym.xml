@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ymtv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="16dp"
+                    android:text="原码"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/ymtv2"
+                    android:layout_width="335dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="21dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="     原码(true form)是一种计算机中对数字的二进制定点表示方法。原码表示法在数值前面增加了一位符号位（即最高位为符号位）：正数该位为0，负数该位为1（0有两种表示：+0和-0），其余位表示数值的大小。" />
+
+                <TextView
+                    android:id="@+id/ymtv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:text="原码的优点"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/ymtv4"
+                    android:layout_width="335dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="21dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="     简单直观；例如，我们用8位二进制表示一个数，+11的原码为00001011，-11的原码就是10001011。" />
+
+                <TextView
+                    android:id="@+id/ymtv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:text="原码的缺点"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/ymtv6"
+                    android:layout_width="335dp"
+                    android:layout_height="600dp"
+                    android:layout_marginBottom="21dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="" />
+
+        </LinearLayout>
+</ScrollView>
